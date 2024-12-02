@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+}
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: 500;
+}
+.navbar a:hover {
+    color: #007bff;
+}
+.header {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.header p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.header .btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.btn-primary {
+    background-color: #00c6ff;
+    color: #fff;
+}
+.btn-secondary {
+    background-color: #ff6ec4;
+    color: #fff;
+}
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #666;
+}
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.services p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+.service-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.service-item i {
+    font-size: 40px;
+    color: #00c6ff;
+    margin-bottom: 20px;
+}
+.service-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.service-item p {
+    font-size: 14px;
+    color: #666;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.footer a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #007bff;
+}
+
+
+ /* Responsive Design */
+ @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .navbar a {
+        margin: 10px 0;
+    }
+    .header h1 {
+        font-size: 36px;
+    }
+    .header p {
+        font-size: 16px;
+    }
+    .header .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .services h2 {
+        font-size: 28px;
+    }
+    .services p {
+        font-size: 14px;
+    }
+    .service-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 28px;
+    }
+    .header p {
+        font-size: 14px;
+    }
+    .header .btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+    .services h2 {
+        font-size: 24px;
+    }
+    .services p {
+        font-size: 12px;
+    }
+}
